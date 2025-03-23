@@ -134,7 +134,7 @@ const gameContainer = document.getElementById("game");
         document.getElementById("startButton").addEventListener("click", function() {
             this.style.display = "none"; // Button ausblenden
         
-            for (let i = 0; i < 50; i++) createObject();
+            for (let i = 0; i < 25; i++) createObject();
 
             setInterval(moveObjects, 50);
         });
